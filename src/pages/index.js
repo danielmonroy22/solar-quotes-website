@@ -22,6 +22,7 @@ export default function Home() {
         </Helmet>
 
         <meta name="robots" content="all" />
+
       </Head>
       <main>
 

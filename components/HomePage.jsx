@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Link from 'next/link';
+
 
 
 
@@ -73,7 +75,9 @@ const HomePage = () => {
 
                             </div>
                             <div className='flex justify-end pt-10 px-10 '>
-                                <button type='button' className=' w-full py-5 text-white font-semibold bg-red-500 rounded'>FREE QUOTE</button>
+                                <Link href="/dataEntry">
+                                    <button type='button' className=' w-full py-5 text-white font-semibold bg-red-500 rounded'>FREE QUOTE</button>
+                                </Link>
                             </div>
 
                         </div>
